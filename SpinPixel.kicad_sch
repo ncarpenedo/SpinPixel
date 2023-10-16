@@ -201,6 +201,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 118.11 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 350763b7-c594-4b31-8182-78397ad177da)
+    (property "Reference" "C2" (at 121.92 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "C" (at 121.92 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 119.0752 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 118.11 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c19211c7-5849-4d4b-9dd6-e0fe82e25d40))
+    (pin "2" (uuid 2abafb7a-b91b-40a7-9b23-7d9434526132))
+    (instances
+      (project "SpinPixel"
+        (path "/00b468ec-61f9-4c5d-bec4-a351a57d98e5"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 147.32 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8837aefc-f8a0-40c0-a409-b5c45a267cc1)
